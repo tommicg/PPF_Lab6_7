@@ -1,0 +1,23 @@
+.contentFlex{
+    background-color: lightgreen;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2,auto);
+}
+.contentFlexImg{
+    width: 350px;
+    height: 270px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+
+.contentFlexTxt{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+}
+.contentDivClass{
+    background-color: lightgreen;
+    
+}

@@ -1,12 +1,15 @@
 import React, {Component} from 'react'
 import logo from '../logo.svg';
+import './CHeader.css';
+
 
 class CHeader extends Component{
 render(){
+    const {aName, aFamily} = this.props;
     return(
-        <div>
+        <div className="headerContainer">
             <img src={logo} className="headerLogo" alt="logo"/>
-            <h2>Witaj w przykładowym serwisie</h2>
+            <h2>Witaj w naszym przykładowym serwisie {aName+' '+aFamily}</h2>
         </div>
     );
 }
