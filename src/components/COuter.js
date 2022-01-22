@@ -26,7 +26,7 @@ export default class COuter extends Component{
 
         return(
             <div className="bgClassNormal">
-                <h2 className={styl.bgClassModule}>Komponent zewnętrzny</h2>
+                <h2 className={styl.bgClassModule}>Komponent zewnętrzny.</h2>
             <button onClick={this.stateChange}>Zmiana stanu</button>
             <CInner/>
             </div>
