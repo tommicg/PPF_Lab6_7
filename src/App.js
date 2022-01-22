@@ -14,7 +14,7 @@ function App() {
      { <COuter/> } 
 
     <CFooter weather="słoneczna" temp="25">
-      <p>Niebo jest bezchmurne, wiatr słaby.</p>
+      <p>Niebo jest bezchmurne, wiatr słaby</p>
 
       </CFooter>
     
